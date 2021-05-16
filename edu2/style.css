@@ -45,7 +45,8 @@ a {
       letter-spacing: 2px;
       font-family: 'Bebas Neue', cursive;
       right: 100px;
-      line-height: 80px;
+      top: 20px;
+      line-height: 40px;
       z-index: 1;
 }
 
