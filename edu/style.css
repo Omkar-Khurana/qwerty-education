@@ -92,7 +92,7 @@ img {
 }
 
 h1 {
-      color: #fff;
+      color: rgb(124, 124, 124);
       font-family: 'Bebas Neue', cursive;
       font-weight: bolder !important;
       font-size: 56px !important;
@@ -122,7 +122,7 @@ button {
       margin-left: 1px;
       background: none;
       padding: 14px 30px;
-      border: 0.009px solid white !important;
+      border: none;
       outline: none;
       border: none;
       color: #fff;
@@ -134,7 +134,7 @@ button {
       overflow: hidden;
 }
 
-button::before {
+button:before {
       content: "";
       position: absolute;
       left: 0;
@@ -145,7 +145,7 @@ button::before {
       z-index: -1;
       transition: 0.3s ease-in all;
 }
-button::after {
+button:after {
       content: "";
       position: absolute;
       left: -5%;
@@ -183,8 +183,8 @@ button:hover .icon-right.after:before {
 
 .icon-right {
       position: absolute;
-      top: -10%;
-      right: 2%;
+      top: 0;
+      right: 0;
 }
 .icon-right:after {
       font-family: "FontAwesome";
@@ -292,6 +292,17 @@ button:hover .icon-right.after:before {
       z-index: 1;
       color: grey;
       font-size: 15px;
+      right: 0;
+      font-family: 'Bebas Neue', cursive;
+      font-weight: 100;
+      margin-right: 2em;
+      bottom: 40px;   
+}
+
+.para {
+      z-index: 1;
+      color: grey;
+      font-size: 23px;
       right: 0;
       font-family: 'Bebas Neue', cursive;
       font-weight: 100;
