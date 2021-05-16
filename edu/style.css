@@ -37,9 +37,10 @@ img {
       z-index: 1;
 }
 
-.contact {
+a {
       position: fixed;
-      color: rgb(124, 124, 124);
+      text-decoration: none;
+      color: rgb(124, 124, 124)!important;
       font-size: 12px;
       letter-spacing: 2px;
       font-family: 'Bebas Neue', cursive;
@@ -463,6 +464,59 @@ button:hover .icon-right.after:before {
       }
 
 }
+
+/* width */
+::-webkit-scrollbar {
+      width: 0.5em;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: red; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000; 
+    }
+
+input[type=text]{
+      width: 40%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+
+a{
+      text-decoration: none;
+}
+
+div.row{
+      overflow: auto;
+      height: 50%;
+      width: 50%;
+      position: absolute;
+      left: 40%;
+      top: 30%;
+}
+#video{
+      padding: .75;
+}
+
+/* .row{
+      /* position: absolute; */
+      /* left : ;
+} */ 
 
 
 

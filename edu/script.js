@@ -12,6 +12,13 @@
             ease: Expo.easeInOut
       });
 
+      TweenMax.from(".form-control", 3, {
+            delay: 1,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+      });
+
       TweenMax.from(".contact", 3, {
             delay: 1.1,
             opacity: 0,
